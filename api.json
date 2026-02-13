@@ -1,10 +1,8 @@
 {
-  "category": "ENTITY_SPIRIT",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/hantu-raya",
     "maintainers": [
       {
@@ -18,379 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "hantu-raya",
     "name": "Hantu Raya",
-    "aliases": [
-      {
-        "name": "Great Ghost",
-        "language": "Malay",
-        "meaning": "Raya means 'great' or 'grand'"
-      },
-      {
-        "name": "Raja Hantu",
-        "language": "Malay",
-        "meaning": "King of Ghosts"
-      },
-      {
-        "name": "Hantu Besar",
-        "language": "Malay",
-        "meaning": "Big Ghost"
-      }
-    ],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Powerful Spirit",
+    "aliases": [],
+    "category": "|_BROAD_CATEGORY_OF_SERVANT_SPIRITS_ACROSS_CULTURES_|",
+    "subcategory": "is commonly told as warning about the serious responsibility of possessing a Hantu Raya.",
     "tags": [
-      "malaysian",
-      "malay-folklore",
-      "spirit",
-      "powerful-entity",
-      "shapeshifter",
-      "servant-spirit",
-      "bomoh",
-      "islamic-context",
-      "southeast-asian"
+      "folklore",
+      "mythology"
     ],
-    "status": "traditional",
+    "status": "documented",
     "description": {
-      "summary": "A powerful and ancient spirit in Malay folklore, considered the most potent type of supernatural servant that can be controlled by a bomoh (shaman). Unlike common ghosts, the Hantu Raya is a primordial entity of great power.",
-      "full": "Hantu Raya, meaning 'Great Ghost' or 'Grand Spirit', is one of the most powerful supernatural entities in Malay folklore and Islamic mysticism as practiced in Southeast Asia. Unlike ordinary hantu (ghosts), the Hantu Raya is an ancient, primordial spirit of immense power that can be bound and commanded by skilled practitioners known as bomoh or pawang. The spirit serves as a supernatural familiar, carrying out tasks ranging from protection and healing to more malevolent purposes depending on its master's intentions. In Malay-Islamic tradition, the Hantu Raya exists in the liminal space between Islamic cosmology's jinn and indigenous animist spirits. It is said to be invisible, capable of shapeshifting, and possessing knowledge of hidden things. The relationship between master and spirit is complex and dangerous, requiring constant vigilance and spiritual discipline."
+      "summary": "Hantu Raya, meaning \\\"Great Ghost\\\" or \\\"Grand Spirit,\\\" is one of the most powerful supernatural entities in Malay folklore and Islamic mysticism as practiced in Southeast Asia.",
+      "full": "Hantu Raya, meaning \\\"Great Ghost\\\" or \\\"Grand Spirit,\\\" is one of the most powerful supernatural entities in Malay folklore and Islamic mysticism as practiced in Southeast Asia. Unlike ordinary hantu (ghosts), the Hantu Raya is an ancient, primordial spirit of immense power that can be bound and commanded by skilled practitioners known as bomoh or pawang. The spirit serves as a supernatural familiar, carrying out tasks ranging from protection and healing to more malevolent purposes depending on its master's intentions. In Malay-Islamic tradition, the Hantu Raya exists in the liminal space between Islamic cosmology's jinn and indigenous animist spirits. It is said to be invisible, capable of shapeshifting, and possessing knowledge of hidden things. The relationship between master and spirit is complex and dangerous, requiring constant vigilance and spiritual discipline. The Hantu Raya must be fed regular offerings, treated with respect, and controlled through proper Islamic invocations, or it may turn against its master with devastating consequences. The phenomenon represents a fascinating syncretism of pre-Islamic Malay animism with Islamic mystical practices, reflecting centuries of cultural and religious融合 in the Malay world. While orthodox Islamic authorities consider the practice of binding spirits to be problematic or forbidden, belief in Hantu Raya persists in both rural and urban Malay communities, demonstrating the enduring power of indigenous spiritual traditions within Islamic contexts."
     },
     "etymology": {
-      "origin": "Malay language: 'Hantu' (ghost/spirit) + 'Raya' (great/grand)",
-      "meaning": "Great Ghost or Grand Spirit, denoting its superior status among supernatural entities",
-      "first_use": "Pre-Islamic Malay animist traditions, later syncretized with Islamic mysticism"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "ENTITY_SPIRIT",
-      "type": "Powerful Spirit Familiar",
-      "subtype": "Bound Servant Entity",
-      "variant": "Malay-Islamic"
+      "category": "|_BROAD_CATEGORY_OF_SERVANT_SPIRITS_ACROSS_CULTURES_|",
+      "type": "is commonly told as warning about the serious responsibility of possessing a Hantu Raya.",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "djinn",
-        "name": "Djinn",
-        "relationship": "similar",
-        "description": "Islamic spirit beings with similar powers and serving relationships"
-      },
-      {
-        "id": "toyol",
-        "name": "Toyol",
-        "relationship": "related",
-        "description": "Lesser spirit familiar used by practitioners"
-      },
-      {
-        "id": "pelesit",
-        "name": "Pelesit",
-        "relationship": "related",
-        "description": "Cricket-spirit familiar used in Malay magic"
-      },
-      {
-        "id": "polong",
-        "name": "Polong",
-        "relationship": "related",
-        "description": "Bottled spirit servant in Malay tradition"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": "Typically invisible; when manifesting, can take any form",
-      "coloration": [
-        "Usually invisible",
-        "May appear as shadow",
-        "Can manifest as animals or humans"
-      ],
-      "features": [
-        {
-          "feature": "Invisibility",
-          "description": "Naturally invisible to ordinary humans",
-          "frequency": "default"
-        },
-        {
-          "feature": "Shapeshifting",
-          "description": "Can take the form of any creature, human, or object",
-          "frequency": "common"
-        },
-        {
-          "feature": "Size variation",
-          "description": "Can appear as large as a house or small as an insect",
-          "frequency": "common"
-        },
-        {
-          "feature": "No fixed form",
-          "description": "Essence is formless; physical appearance is assumed",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Fundamentally formless entity; all physical manifestations are temporary and mutable"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shapeshifting",
-        "description": "Can assume any physical form at will",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Invisibility",
-        "description": "Natural state is invisible to most humans",
-        "frequency": "default",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Supernatural knowledge",
-        "description": "Knows hidden things, future events, and secrets",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Possession",
-        "description": "Can possess humans and animals",
-        "frequency": "occasional",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Healing and harming",
-        "description": "Can cure diseases or inflict illness",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Object manipulation",
-        "description": "Can move objects without physical form",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Long-distance action",
-        "description": "Can affect targets far from its physical location",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "any",
-      "disposition": "neutral",
-      "social_structure": "solitary",
-      "habitat_preference": [
-        "wherever its master is",
-        "stored in vessels when not active",
-        "no natural habitat"
-      ],
-      "diet": "Sustained by offerings and spiritual energy",
-      "patterns": [
-        "Obeys its master's commands",
-        "Requires regular offerings and attention",
-        "May turn on negligent masters",
-        "Passed down through generations",
-        "Becomes more powerful with age"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Traditional throughout Malay Peninsula and Indonesian archipelago, particularly in areas with strong Malay-Islamic culture",
-      "continents": ["Asia"],
-      "countries": ["Malaysia", "Indonesia", "Singapore", "Brunei", "Southern Thailand"],
-      "regions": [
-        "Malay Peninsula",
-        "Sumatra",
-        "Java",
-        "Borneo",
-        "Riau Islands"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "cultural_context": {
-      "tradition": "Malay-Islamic folk practice",
-      "practitioners": "Bomoh, pawang, dukun",
-      "prevalence": "Known throughout Malay communities, practiced by specialists",
-      "urban_rural": "Traditionally rural, but beliefs persist in urban areas"
-    },
+    "hotspots": [],
     "temporal": {
-      "origins": "Pre-Islamic animist traditions, later syncretized with Islamic mysticism",
-      "continuity": "Still believed in modern Malaysia and Indonesia",
-      "peak_belief": "Pre-colonial through early 20th century",
-      "current_status": "Traditional belief maintained in rural areas and among practitioners"
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Syncretic tradition combining pre-Islamic Malay animism with Islamic concepts of jinn and spiritual entities. The Hantu Raya represents an indigenization of Islamic spirit cosmology.",
-      "earliest_accounts": "Oral traditions dating to pre-Islamic period; written accounts from Islamic period onward",
-      "folklore_connections": "Related to broader Southeast Asian spirit familiars and Islamic jinn traditions"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Pre-1400s",
-        "event": "Pre-Islamic spirit traditions",
-        "significance": "Animist beliefs in powerful nature spirits established",
-        "source": "Archaeological and anthropological research"
-      },
-      {
-        "date": "1400s-1500s",
-        "event": "Islamic conversion period",
-        "significance": "Indigenous spirit beliefs syncretized with Islamic jinn concepts",
-        "source": "Historical records"
-      },
-      {
-        "date": "1600s-1800s",
-        "event": "Colonial documentation",
-        "significance": "European colonizers begin documenting Malay supernatural practices",
-        "source": "Colonial ethnographic records"
-      },
-      {
-        "date": "1885",
-        "event": "Walter Skeat's research",
-        "significance": "First comprehensive English documentation of Malay magic",
-        "source": "Skeat, W.W. (1900). Malay Magic"
-      },
-      {
-        "date": "1920s-1960s",
-        "event": "Academic documentation",
-        "significance": "Anthropologists document bomoh practices and spirit beliefs",
-        "source": "Academic ethnographies"
-      },
-      {
-        "date": "1970s-present",
-        "event": "Modern Islamic reform movements",
-        "significance": "Increased religious scrutiny of folk practices, but beliefs persist",
-        "source": "Contemporary studies"
-      }
-    ],
-    "modern_era": "While orthodox Islamic authorities discourage the practice of binding spirits, belief in Hantu Raya persists in both rural and urban Malay communities. Modern practitioners often frame their work within Islamic boundaries, using Quranic verses and invoking Allah's name, distinguishing their practices from forbidden black magic."
+    "timeline": []
   },
-
-  "practices": {
-    "acquisition": {
-      "methods": [
-        "Inherited from teacher or family member",
-        "Bound through ritual at specific locations (crossroads, old trees, graveyards)",
-        "Captured during spiritual retreat (semedi)",
-        "Transferred through dying master's final ritual"
-      ],
-      "requirements": [
-        "Extensive spiritual preparation",
-        "Knowledge of proper invocations",
-        "Islamic prayers and protective verses",
-        "Specific offerings and contracts"
-      ],
-      "locations": "Crossroads, old trees, abandoned places, graveyards, riverbanks"
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
     },
-    "maintenance": {
-      "offerings": [
-        "Regular food offerings",
-        "Incense",
-        "Yellow rice (nasi kunyit)",
-        "Flowers",
-        "Prayers and recitations"
-      ],
-      "frequency": "Weekly or as specified in original contract",
-      "consequences_of_neglect": "Spirit may turn on master, cause illness or misfortune, or escape"
-    },
-    "uses": {
-      "benevolent": [
-        "Healing illnesses",
-        "Protection from evil",
-        "Finding lost objects",
-        "Ensuring success in ventures",
-        "Detecting lies and deception"
-      ],
-      "malevolent": [
-        "Attacking enemies",
-        "Causing illness",
-        "Creating love or hate",
-        "Theft or misfortune"
-      ]
-    }
+    "notable": [],
+    "database_path": "./sightings/"
   },
-
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Bomoh inheritance traditions",
-        "Spirit contract rituals",
-        "Protection against hostile spirits"
-      ],
-      "stories": [
-        "Masters destroyed by their own Hantu Raya",
-        "Spirits avenging mistreated servants",
-        "Battles between rival bomoh's spirits"
-      ],
-      "beliefs": "The Hantu Raya is considered extremely dangerous; it must be respected and properly maintained or it will bring disaster"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
-    "religious_context": {
-      "islamic_perspective": "Orthodox Islam considers binding spirits to be shirk (polytheism) or black magic. However, folk practice attempts to reconcile this through Islamic framing.",
-      "practitioner_justification": "Bomoh distinguish between forbidden magic and permissible spiritual practice using Islamic prayers",
-      "community_attitude": "Ambivalent - feared and respected but also religiously questionable"
-    },
-    "modern_culture": {
-      "media": [
-        "Featured in Malaysian horror films",
-        "Subject of documentary investigations",
-        "Discussed in Islamic religious programs"
-      ],
-      "contemporary_belief": "Belief persists especially in rural areas; urban skepticism increasing but cultural knowledge remains"
+    "popular_culture": {
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
-    "researchers": [
-      {
-        "name": "Walter William Skeat",
-        "affiliation": "Cambridge University",
-        "contribution": "First comprehensive documentation of Malay magic and spirits",
-        "period": "1890s-1900"
-      },
-      {
-        "name": "R.O. Winstedt",
-        "affiliation": "Colonial administrator and scholar",
-        "contribution": "Extensive documentation of Malay beliefs and practices",
-        "period": "1920s-1960s"
-      },
-      {
-        "name": "Kirk Endicott",
-        "affiliation": "Dartmouth College",
-        "contribution": "Anthropological studies of Malay religion and magic",
-        "period": "1970s-present"
-      }
-    ],
-    "documentation": "Extensively documented in colonial ethnographies and modern anthropological studies",
-    "ongoing_studies": "Contemporary research focuses on syncretism between Islam and indigenous beliefs, and persistence of traditional practices in modern Malaysia"
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "skeat-1900",
-      "type": "book",
-      "title": "Malay Magic",
-      "authors": ["Walter William Skeat"],
-      "publication": "Macmillan and Co.",
-      "date": "1900"
-    },
-    {
-      "id": "winstedt-1951",
-      "type": "book",
-      "title": "The Malay Magician",
-      "authors": ["R.O. Winstedt"],
-      "publication": "Routledge & Kegan Paul",
-      "date": "1951"
-    },
-    {
-      "id": "endicott-1970",
-      "type": "book",
-      "title": "An Analysis of Malay Magic",
-      "authors": ["Kirk Endicott"],
-      "publication": "Oxford University Press",
-      "date": "1970"
-    }
-  ]
+  "sources": []
 }
