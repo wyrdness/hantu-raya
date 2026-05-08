@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/hantu-raya",
     "maintainers": [
       {
@@ -16,72 +16,128 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "hantu-raya",
     "name": "Hantu Raya",
-    "aliases": [],
-    "category": "|_BROAD_CATEGORY_OF_SERVANT_SPIRITS_ACROSS_CULTURES_|",
-    "subcategory": "is commonly told as warning about the serious responsibility of possessing a Hantu Raya.",
+    "aliases": [
+      { "name": "Great Ghost", "language": "English", "meaning": "Direct translation" },
+      { "name": "Hantu Pusaka", "language": "Malay", "region": "Malaysia", "meaning": "Heirloom spirit, when inherited within a family lineage" }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Familiar spirit / great hantu",
     "tags": [
-      "folklore",
-      "mythology"
+      "familiar-spirit",
+      "bomoh",
+      "malay-folklore",
+      "black-magic",
+      "shapeshifter",
+      "doppelganger",
+      "ancak",
+      "hereditary-spirit"
     ],
     "status": "documented",
     "description": {
-      "summary": "Hantu Raya, meaning \\\"Great Ghost\\\" or \\\"Grand Spirit,\\\" is one of the most powerful supernatural entities in Malay folklore and Islamic mysticism as practiced in Southeast Asia.",
-      "full": "Hantu Raya, meaning \\\"Great Ghost\\\" or \\\"Grand Spirit,\\\" is one of the most powerful supernatural entities in Malay folklore and Islamic mysticism as practiced in Southeast Asia. Unlike ordinary hantu (ghosts), the Hantu Raya is an ancient, primordial spirit of immense power that can be bound and commanded by skilled practitioners known as bomoh or pawang. The spirit serves as a supernatural familiar, carrying out tasks ranging from protection and healing to more malevolent purposes depending on its master's intentions. In Malay-Islamic tradition, the Hantu Raya exists in the liminal space between Islamic cosmology's jinn and indigenous animist spirits. It is said to be invisible, capable of shapeshifting, and possessing knowledge of hidden things. The relationship between master and spirit is complex and dangerous, requiring constant vigilance and spiritual discipline. The Hantu Raya must be fed regular offerings, treated with respect, and controlled through proper Islamic invocations, or it may turn against its master with devastating consequences. The phenomenon represents a fascinating syncretism of pre-Islamic Malay animism with Islamic mystical practices, reflecting centuries of cultural and religious融合 in the Malay world. While orthodox Islamic authorities consider the practice of binding spirits to be problematic or forbidden, belief in Hantu Raya persists in both rural and urban Malay communities, demonstrating the enduring power of indigenous spiritual traditions within Islamic contexts."
+      "summary": "Hantu Raya ('Great Ghost') is a powerful Malay familiar spirit said to be bound to a human master — typically a bomoh (shaman) or pawang — for whom it serves as a strength-augmenting double. It demands strict ritual offerings and is inherited within families as hantu pusaka.",
+      "full": "Hantu Raya, literally 'Great Ghost' or 'High Spirit', is one of the most powerful familiar spirits in Malay folklore and folk-Islamic practice. Unlike ordinary hantu, it is bound through pact to a human master — historically a bomoh (shaman) or pawang (specialist practitioner) — and serves as a supernatural double that performs labour, provides protection, and can act as an alibi for its master's whereabouts. Folktale descriptions give it a humanoid form covered in black hair save for the face, with rough grey skin, long sharp teeth, and red eyes; in service it most often takes on the appearance of its master. The pact requires regular offerings of ancak — a ritual meal traditionally consisting of yellow glutinous rice, eggs, roasted chicken, rice flakes, and a doll — failing which the spirit may turn on its master or its master's family. Hantu Raya is frequently inherited as hantu pusaka, descending through a lineage and binding successive generations to the offerings until it is ritually released. The figure is treated as problematic by orthodox Islamic authorities in Malaysia but persists strongly in popular belief and is a recurring presence in modern Malaysian horror cinema, most prominently the 2007 film Jangan Pandang Belakang and its 2009 sequel."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Malay: hantu ('ghost' or 'spirit') + raya ('great', 'high', 'major').",
+      "meaning": "Literally 'Great Ghost' — denoting power, not necessarily kingship over other spirits.",
+      "first_use": "Documented in 20th-century Malaysian ethnographies; full-scale academic treatment in Zain Tajudin's 1991 paper for the Journal of the Siam Society."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_BROAD_CATEGORY_OF_SERVANT_SPIRITS_ACROSS_CULTURES_|",
-      "type": "is commonly told as warning about the serious responsibility of possessing a Hantu Raya.",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "ENTITY_SPIRIT",
+      "type": "Familiar spirit",
+      "subtype": "Bound great-hantu / hereditary spirit",
+      "variant": "Malay-Islamic syncretic"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "hantu-pelesit", "name": "Pelesit", "relationship": "related", "description": "Smaller Malay familiar spirit bound by bomoh/pawang" },
+      { "id": "polong", "name": "Polong", "relationship": "related", "description": "Bottled blood-spirit familiar in Malay magic" },
+      { "id": "toyol", "name": "Toyol", "relationship": "related", "description": "Child-spirit familiar used for theft in Malay folk magic" },
+      { "id": "hantu-pontianak", "name": "Pontianak", "relationship": "related", "description": "Major Malay female ghost — distinct from but often grouped with the great-hantu category" },
+      { "id": "djinn-familiar", "name": "Bound jinn (Islamic mysticism)", "relationship": "counterpart", "description": "Islamic mystic figure of the jinn bound to a human master" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.5, "max": 2.0, "unit": "meters", "confidence": "low" },
+      "coloration": ["black hair", "grey skin", "red eyes"],
+      "features": [
+        { "feature": "Black-haired humanoid body", "description": "Folktale descriptions give Hantu Raya a humanoid form covered in black hair except on the face", "frequency": "common" },
+        { "feature": "Rough grey skin (face)", "description": "Exposed facial skin described as rough and grey", "frequency": "common" },
+        { "feature": "Long sharp teeth", "description": "Pronounced teeth in the natural form", "frequency": "common" },
+        { "feature": "Red eyes", "description": "Characteristic red eyes", "frequency": "common" },
+        { "feature": "Doppelganger of master", "description": "When in service, takes on the exact appearance of its bound master", "frequency": "common" }
+      ],
+      "morphology": "Naturally a hairy humanoid; in operation, more often manifests as a perfect double of its master."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Doubling / doppelganger", "description": "Manifests as a duplicate of its master, providing alibis and performing tasks in the master's place", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Superhuman strength and labour", "description": "Said to perform agricultural and other manual labour with strength beyond a human's", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Command of lesser spirits", "description": "Some traditions hold that a Hantu Raya can direct or amplify the activity of lesser hantu", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Limited range", "description": "Cannot stray far from its base or master's home", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Punishment for missed offerings", "description": "Turns on the master or family if the ancak offering schedule is broken", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "pair",
+      "habitat_preference": ["the master's house", "agricultural fields", "Malay villages"],
+      "diet": "Ritual ancak offerings (yellow glutinous rice, eggs, roasted chicken, rice flakes, a doll)",
+      "patterns": [
+        "Bound to a single human master through pact",
+        "Operates near the master's home (limited range)",
+        "Demands timely offerings; punishes neglect",
+        "Inherited as hantu pusaka within the master's lineage"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Malay-Islamic cultural sphere of Maritime Southeast Asia: peninsular Malaysia in particular, with belief extending into Singapore, Brunei, southern Thailand, and parts of Indonesia.",
+      "continents": ["Asia"],
+      "countries": ["Malaysia", "Singapore", "Brunei", "Indonesia"],
+      "regions": [
+        "Malay Peninsula",
+        "East Malaysia (Sabah, Sarawak)"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-Islamic Malay animism",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Indigenous Malay folk religion; documented in 20th-century ethnographies"
+      },
+      "peak_activity_periods": [
+        { "period": "Pre-modern village Malaysia", "description": "Central role of bomoh/pawang and bound-spirit familiars in Malay village life" },
+        { "period": "2007–2009", "description": "High-profile Malaysian horror cinema (Jangan Pandang Belakang, Jangan Pandang Belakang Congkak) brings Hantu Raya to mass audiences" }
+      ],
+      "seasonal_patterns": "No strong seasonal pattern attested; tied to ritual calendar rather than season."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Pre-Islamic Malay animism, in which powerful nature- and ancestor-spirits could be bound through ritual pact, syncretized with Islamic notions of bound jinn under the bomoh/pawang tradition.",
+      "earliest_accounts": "Documented in modern Malaysian ethnography; substantial academic treatment in Haji Zain Tajudin's 1991 paper 'The Hantu Raya: A Malay Demon' in the Journal of the Siam Society.",
+      "folklore_connections": "Part of the Malay familiar-spirit complex alongside Pelesit, Polong, Toyol, Hantu Pusaka, and Bajang; distantly comparable to Western and Islamic figures of bound demonic familiars."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1991-01-01", "event": "Haji Zain Tajudin publishes 'The Hantu Raya: A Malay Demon' in the Journal of the Siam Society (vol. 79, pt. 2)", "significance": "Major academic treatment of the figure", "source": "Zain Tajudin, JSS 79.2 (1991)" },
+      { "date": "2007-08-30", "event": "Jangan Pandang Belakang directed by Ahmad Idham released in Malaysia, prominently featuring Hantu Raya", "significance": "Popularizes Hantu Raya in modern mass-market Malaysian horror cinema", "source": "Malaysian film records" },
+      { "date": "2009-09-17", "event": "Jangan Pandang Belakang Congkak released as a sequel/spin-off", "significance": "Continued cinematic engagement with Hantu Raya as a curse passed through families", "source": "Malaysian film records" }
+    ],
+    "modern_era": "Hantu Raya remains a recognizable figure in Malaysian popular culture and folk practice. Religious authorities discourage the practice of binding spirits, but folk belief in inherited Hantu Raya curses persists, especially in rural communities, and is recurrently dramatized in Malaysian horror media."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +148,101 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "hantu-raya-evidence-zain-1991",
+        "type": "academic paper",
+        "name": "The Hantu Raya: A Malay Demon (Zain Tajudin, 1991)",
+        "description": "Academic ethnographic article on the Hantu Raya in the Journal of the Siam Society.",
+        "status": "unverified",
+        "analysis": "Provides a structured ethnographic account of the figure, ritual practice, and folkloric range.",
+        "source": "Zain Tajudin, JSS 79.2 (1991)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Bound familiar / pact spirit",
+        "description": "Within Malay folk practice, Hantu Raya is a real spirit bound by oath to a human master in exchange for offerings, performing labour and protection.",
+        "proponents": ["Bomoh and pawang practitioners", "Malay folk-religious tradition"],
+        "evidence_cited": ["Continuity of ritual offerings (ancak)", "Reports of inherited curses through hantu pusaka"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Sociological function in village politics",
+        "description": "Folklorists and anthropologists read the Hantu Raya as encoding the social authority of the bomoh/pawang and the moral economy of ritual obligation in rural Malay villages.",
+        "proponents": ["Malaysian folklore studies"],
+        "evidence_cited": ["Hantu Raya stories used to explain prosperity, sudden misfortune, and intra-family conflict"]
+      },
+      {
+        "name": "Theological objection (orthodox Islam)",
+        "description": "Mainstream Malaysian Islamic authorities consider the binding of spirits problematic or shirk-adjacent and discourage the practice while not necessarily denying the existence of jinn-like entities.",
+        "proponents": ["Malaysian Islamic religious authorities"],
+        "evidence_cited": ["Fatwas against bomoh/pawang familiar-binding practices"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Bomoh/pawang practice",
+        "Hantu pusaka inheritance",
+        "Ancak offering ritual"
+      ],
+      "stories": [
+        "A bomoh's Hantu Raya performing field labour in his exact form",
+        "A family cursed by an inherited Hantu Raya whose offerings have lapsed",
+        "A Hantu Raya turning against its master after broken pacts"
+      ],
+      "beliefs": "Belief in bound familiar spirits remains active in rural Malay-Islamic communities despite religious discouragement, and the inheritance pattern (hantu pusaka) is treated with serious caution."
+    },
+    "indigenous": {
+      "cultures": ["Malay", "Bruneian Malay"],
+      "significance": "A major figure in the Malay folk-Islamic spirit hierarchy and a key example of pre-Islamic / Islamic syncretism.",
+      "sensitivity_note": "Connected to living religious practice; should not be presented as fictional in contexts where the belief is current.",
+      "respect_guidelines": "Cite Malay-language and academic ethnographic sources. Distinguish folk practice from orthodox Islamic doctrine."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Zain Tajudin, 'The Hantu Raya: A Malay Demon' (1991)",
+        "Standard entry in Malaysian ghost-story and bomoh-tradition compilations"
+      ],
+      "film_tv": [
+        "Jangan Pandang Belakang (2007, dir. Ahmad Idham)",
+        "Jangan Pandang Belakang Congkak (2009)",
+        "Recurring figure in Malaysian horror anthology television"
+      ],
       "games": [],
+      "music": [],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Haji Zain Tajudin", "affiliation": "Independent / Siam Society", "contribution": "Major 1991 academic ethnographic article on Hantu Raya", "period": "1991" }
+    ],
+    "organizations": [
+      { "name": "The Siam Society", "url": "https://thesiamsociety.org", "focus": "Cultural and ethnographic scholarship on Southeast Asia, including Malay folk religion" }
+    ],
+    "ongoing_studies": "Hantu Raya appears in contemporary scholarship on Malay-Islamic folk religion, the bomoh/pawang tradition, and the cultural sociology of Malaysian rural life."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wiki-hantu-raya", "type": "website", "title": "Hantu Raya", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Hantu_Raya", "accessed": "2026-05-07" },
+    { "id": "zain-tajudin-1991", "type": "paper", "title": "The Hantu Raya: A Malay Demon", "authors": ["Haji Zain Tajudin"], "publication": "Journal of the Siam Society, vol. 79, pt. 2", "date": "1991", "url": "https://thesiamsociety.org/wp-content/uploads/1991/03/JSS_079_2e_ZainTajudin_HantuRayaMalayDemon.pdf", "accessed": "2026-05-07" },
+    { "id": "wiki-ghosts-malay-hr", "type": "website", "title": "Ghosts in Malay culture", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ghosts_in_Malay_culture", "accessed": "2026-05-07" }
+  ]
 }
